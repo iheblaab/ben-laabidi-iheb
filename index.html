@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./csss.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Movie-stream</title>
+</head>
+<body>
+    <h1 id="title1"></h1>
+  
+    <div class="bar1">
+        <input type="text" id="searchbar" placeholder="Search for a movie…">
+        <button id="searchButton">Search</button>
+    </div>
+    <img src="https://media3.giphy.com/media/tmH5eUto7WumOdTvRG/giphy.gif?cid=6c09b952q5s4k4d9hs28w6p8x5w23jai3gca235ubuewxizg&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Computer man" style="width:48px;height:48px;">
+    <div class="divbar">
+        <button id="b1" class="button1">Random movie</button>
+        <button id="b2" class="button1">Top Rated</button>  
+        <button id="b3" class="button1">Trending</button>
+        
+    </div>
+    <marquee>
+        <img  id="images" src="https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRho_MT4PZZhYBy6Sy2mNby3RCBhalfGNoJvm4L5NXxxeN8bhVW58C76YHwwxYtN_kwhPRvvpJ0P0FQGhL8qBAvmwO2m7IutaAr-.jpg?r=189" >
+        <img  id="images" src="https://bluraysforeveryone.com/cdn/shop/files/Inception4KFullSlipSteelBook_HongKong_-Front_1.jpg?v=1689732110&width=1946" >
+        <img  id="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKEHNr11yGaDG4vMl1Pgu6MNdGQY4Iv92Qbg_uIXpcsw&s" >
+        <img  id="images" src="https://cinephiliabeyond.org/wp-content/uploads/2023/05/man-on-fire_9mrYup.jpg" >
+        <img  id="images" src="https://resizing.flixster.com/IxyKj29RwRPGc5c73vCj5M5fQ5w=/1100x618/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p163191_i_h8_ac.jpg" >
+        <img  id="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrkzNov4e8e4Tujg4RstRElSPoonTPQ4Fk9__8Yj8jIA&s">
+    </marquee> 
+    
+    <div class="sort-buttons">
+        <button id="sort-date">Sort by Date</button>
+        <button id="sort-rate">Sort by Rate</button>
+        <button id="sort-genre">Sort by Genre</button>
+    </div>
+
+    <div class="wrapper">
+        <div class="movies" id="movie">
+            <div class="img_wrapper">
+                <img class="img_box" id="lord" src="https://m.economictimes.com/thumb/msid-106103086,width-1600,height-900,resizemode-4,imgsize-187382/the-lord-of-the-rings-the-rings-of-power-season-2-see-what-we-know-about-release-date-number-of-episodes-cast-plot-filming-and-more.jpg">
+            </div>
+            <div class="info">
+                <b><li id="date">Date:</li> <li id="date_value">2000</li></b>
+                    <b><li id="rate">Rate:</li> <li id="rate_value">8.1</li></b>
+                        <b><li id="genre">Genre:</li> <li id="genre_value">Fantasy</li></b>
+            </div>
+            <div class="title">
+                <h3>Lord Of The Rings</h3>
+            </div>
+        </div>
+        <div class="movies" id="movie">
+            <div class="img_wrapper">
+                <img class="img_box" id="sha" src="https://www.avforums.com/styles/avf/editorial/block//1ee9cfe9f8298141321df47663f286be_3x3.jpg">
+            </div>
+            <div class="info">
+                <b><li id="date">Date:</li> <li id="date_value">1994</li></b>
+                     <b><li id="rate">Rate:</li> <li id="rate_value">10</li></b>
+                <b><li id="genre">Genre:</li> <li id="genre_value">Drama</li></b>
+            </div>
+            <div class="title">
+                <h3>shawshank Redemption</h3>
+            </div>
+        </div>
+        <div class="movies" id="movie">
+            <div class="img_wrapper">
+                <img class="img_box" id="leo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVqSRoaoHl0ceE01Nnp_HTMA3L_ubld8Fsg1B1_wQX1w&s">
+            </div>
+            <div class="info">
+                <b><li id="date">Date:</li> <li id="date_value">1994</li></b>
+                <b><li id="rate">Rate:</li> <li id="rate_value">9.1</li></b>
+                <b><li id="genre">Genre:</li> <li id="genre_value">Action</li></b>
+            </div>
+            <div class="title">
+                <h3>leon the professional</h3>
+            </div>
+        </div>
+        <div class="movies" id="movie">
+            <div class="img_wrapper">
+                <img class="img_box" id="red" src="https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg">
+            </div>
+             <div class="info">
+                <b><li id="date">Date:</li> <li id="date_value">2021</li></b>
+                <b><li id="rate">Rate:</li> <li id="rate_value">7.7</li></b>
+                <b><li id="genre">Genre:</li> <li id="genre_value">Comedy</li></b>
+            </div>
+                  <div class="title">
+                <h3>Red Notice</h3>
+            </div>
+        </div>
+        <div class="movies" id="movie">
+            <div class="img_wrapper">
+                <img class="img_box" id="the" src="https://m.media-amazon.com/images/S/pv-target-images/e9a43e647b2ca70e75a3c0af046c4dfdcd712380889779cbdc2c57d94ab63902.jpg">
+            </div>
+            <div class="info">
+                <b><li id="date">Date:</li> <li id="date_value">2008</li></b>
+                 <b><li id="rate">Rate:</li> <li id="rate_value">9.0</li></b>
+                <b><li id="genre">Genre:</li> <li id="genre_value">Crime, Thriller</li></b>
+            </div>
+            <div class="title">
+                <h3>The Dark Knight</h3>
+            </div>
+        </div>
+        <div class="movies" id="movie">
+            <div class="img_wrapper">
+                <img class="img_box" id="jok" src="https://i.guim.co.uk/img/media/fbb1974c1ebbb6bf4c4beae0bb3d9cb93901953c/80_0_2400_1440/master/2400.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=6030ab3e0b55f5976a361d86d8e6e72f">
+            </div>
+            <div class="info">
+                    <b><li id="date">Date:</li> <li id="date_value">2012</li></b>
+                    <b><li id="rate">Rate:</li> <li id="rate_value">8.4</li></b>
+                <b><li id="genre">Genre:</li> <li id="genre_value">Action, Crime, Thriller</li></b>
+            </div>
+            <div class="title">
+                <h3>Joker</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./p.js"></script>
+</body>
+</html>

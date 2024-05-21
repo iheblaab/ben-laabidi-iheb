@@ -1,0 +1,138 @@
+body {
+    background-image: url("./pexels-ds-stories-9227672.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+}
+
+#title1 {
+    color:#FFF2E1;
+    text-align:center;
+    background-color: #803D3B;
+
+}
+
+.divbar {
+ display: flex;
+ justify-content: space-between;
+}
+
+#images {
+    animation-name: MoveMe;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    width: 280px;
+    height: 157px;    
+     
+}
+.button1 {
+        background-color: #04AA6D; 
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+      #b1 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #6C0345;
+      }
+      
+      #b1:hover {
+        background-color: #6C0345;
+        color: white;
+      }
+      
+      #b2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #A34343;
+      }
+      
+      #b2:hover {
+        background-color: #A34343;
+        color: white;
+      }
+      
+      #b3 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #FA7070;
+      }
+      
+      #b3:hover {
+        background-color: #FA7070;
+        color: white;
+      }
+}
+
+@keyframes MoveMe {
+    from{left: 0px}
+    to{left: 800px}
+}
+
+.sort-buttons {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  color: #444;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.movies {
+    background: #e8c5b187;
+    position: relative;
+    width: 350px;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+}
+
+.movies .img_wrapper .img_box {
+  height: 300px;
+  width: 350px;
+}
+
+.movies .info b {
+    display: block;
+}
+
+.movies .info b li {
+    display: inline-block;
+}
+
+.movies .info b li:first-child {
+    color: black;
+}
+
+.movies .info b li:nth-child(2) {
+    color: #c12b2b;
+}
+
+.movies .title {
+    position: absolute;
+    bottom: 74px;
+    background: #e8c5b187;
+    height: 30px;
+    width: 100%;
+}
+
+.movies .title h3 {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 19px;
+}
